@@ -1,8 +1,16 @@
 #container {
     border: 1px solid black;
-    height:100px;
     margin:0px auto;
-    width: 1200px
+    width: 1200px;
+}
+
+#header{
+    height:120px;
+    padding: 10px 0px;
+}
+
+#brand {
+    float:left;
 }
 
 h1 a{
@@ -10,4 +18,30 @@ h1 a{
     font-weight:100;
     text-decoration: none;
     color: #8A2FC1;
+}
+
+#searchBox {
+    float: right;
+    background: linear-gradient( #DFEAA8, #BCDD5C);
+    width: 400px;
+    height: 50px;
+    padding: 15px 15px 0px 15px;
+    margin-top:20px; 
+}
+
+.text {
+    float:left;
+    width: 200px;
+    padding: 4px;
+    font-size: 15px;
+    color: #F07008;
+}
+
+.submit {
+    float: right; 
+    padding: 4px;
+    font-weight: bold;
+    color: white;
+    background: #AD61DC; 
+    font-size: 14px;  
 }
