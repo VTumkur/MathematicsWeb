@@ -45,3 +45,21 @@ h1 a{
     background: #AD61DC; 
     font-size: 14px;  
 }
+
+.clear {
+    clear:both;
+}
+
+#menu {
+    height: 50px;
+    background: linear-gradient(#F8EC89, #DBCF38);
+}
+
+ul {
+    list-style: none;
+}
+
+#menu ul li{
+    float: left;
+    padding: 0px 20px;
+}
