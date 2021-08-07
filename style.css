@@ -1,5 +1,5 @@
 #container {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin:0px auto;
     width: 1200px;
 }
@@ -88,4 +88,23 @@ ul {
     font-size: 25px;
     font-weight: bold;
     color: #C22FDB;
+}
+
+#introduction {
+    background: linear-gradient(#DDE9A6, #B6D855);
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+#introduction h3 {
+    font-size: 45px;
+    font-weight: normal;
+    color: #305F01;
+}
+
+#introduction p {
+    font-size: 22px;
+    color: #628416;
+    text-align: justify;
+
 }
