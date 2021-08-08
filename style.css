@@ -106,5 +106,25 @@ ul {
     font-size: 22px;
     color: #628416;
     text-align: justify;
+}
 
+.sideBar {
+    width: 525px;
+    height: 425px;
+    border: 2px solid #B8E76B;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.sideBar h3 {
+    font-size: 30px;
+    color: #C031E6;
+}
+
+#leftSideBar {
+    float: left;
+}
+
+#rightSideBar {
+    float: right;
 }
