@@ -121,6 +121,23 @@ ul {
     color: #C031E6;
 }
 
+.sideBar ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: #5d12e7;
+    -webkit-transition: font-size 0.3s ease; 
+    -moz-transition: font-size 0.3s ease; 
+    -o-transition: font-size 0.3s ease; 
+    -ms-transition: font-size 0.3s ease; 
+    transition: font-size 0.3s ease; 
+}
+
+.sideBar ul li a:hover {
+    font-size: 25px;
+    font-weight: bold;
+    color: #C22FDB;
+}
+
 #leftSideBar {
     float: left;
 }
