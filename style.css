@@ -110,7 +110,7 @@ ul {
 
 .sideBar {
     width: 525px;
-    height: 425px;
+    height: 500px;
     border: 2px solid #B8E76B;
     border-radius: 20px;
     padding: 25px;
@@ -144,4 +144,14 @@ ul {
 
 #rightSideBar {
     float: right;
+}
+
+#leftSideBar ul{
+    padding-top: 10px;
+}
+
+#leftSideBar ul li{
+    padding-bottom: 8px;
+    padding-left: 8px;
+    list-style-image: url(images/arrow-right.png); 
 }
